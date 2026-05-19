@@ -1006,6 +1006,16 @@ h1, h2, h3, h4 {
 .partner-icon {
     font-size: 2.5rem;
     margin-bottom: 16px;
+    color: var(--primary);
+}
+
+.partner-icon svg {
+    display: block;
+}
+
+.contact-icon svg {
+    display: block;
+    color: var(--primary);
 }
 
 .partner-card h3 {
