@@ -453,6 +453,11 @@ h1, h2, h3, h4 {
     font-size: 1.25rem;
 }
 
+.trust-icon svg {
+    display: block;
+    color: var(--primary);
+}
+
 /* About Section */
 .about {
     padding: 100px 0;
@@ -482,6 +487,11 @@ h1, h2, h3, h4 {
 .card-icon {
     font-size: 2rem;
     margin-bottom: 16px;
+    color: var(--primary);
+}
+
+.card-icon svg {
+    display: block;
 }
 
 .about-card h3 {
@@ -575,6 +585,11 @@ h1, h2, h3, h4 {
 .category-visual {
     font-size: 1.5rem;
     flex-shrink: 0;
+    color: var(--primary-light);
+}
+
+.category-visual svg {
+    display: block;
 }
 
 .category-info h4 {
@@ -846,6 +861,11 @@ h1, h2, h3, h4 {
 .option-icon {
     font-size: 1.5rem;
     flex-shrink: 0;
+    color: var(--primary);
+}
+
+.option-icon svg {
+    display: block;
 }
 
 .option-text {
@@ -864,6 +884,12 @@ h1, h2, h3, h4 {
 .results-icon {
     font-size: 4rem;
     margin-bottom: 16px;
+    color: var(--primary);
+}
+
+.results-icon svg {
+    display: block;
+    margin: 0 auto;
 }
 
 .results-content h4 {
