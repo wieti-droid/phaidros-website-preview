@@ -1,0 +1,24 @@
+{
+  "section_tag": "Our Flagship Brand",
+  "title": "Bonavidea®",
+  "lead": "Combining scientifically validated active ingredients with highest quality manufacturing processes, to offer consumers around the world a range of value-added non-prescription products.",
+  "description": "While we offer a broad range of brands under the Bonavidea umbrella, we focus our development efforts on the therapeutic areas of reproductive health and intimate care.",
+  "categories": [
+    {
+      "name": "Women's Health",
+      "description": "Boost yourself with expertly curated supplements tailored to assist the unique nutritional needs of women from reproductive age through pregnancy, motherhood to menopause."
+    },
+    {
+      "name": "Pediatrics",
+      "description": "Support your child's growth and development from infancy to teenage years with our extensive selection of pediatric nutritional supplements."
+    },
+    {
+      "name": "Family Health",
+      "description": "Keep your family's optimal health and well-being with our wide array of nutritional supplements for everyday wellness."
+    },
+    {
+      "name": "Effervescent Line",
+      "description": "Strengthen your health with essential nutrients delivered in fast-absorbing effervescent format to help you reach your full potential."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "section_tag": "Services",
+  "title": "Private Label",
+  "title_highlight": "Solutions",
+  "subtitle": "From concept to finished product — your brand, our expertise. We develop, produce, and distribute food supplements, cosmetics, and medical devices.",
+  "services": [
+    {
+      "number": "01",
+      "title": "Planning & Conceptualization",
+      "description": "From product idea to working concept. Our network of experts supports you to develop your product, successfully launch it on the market, and position it for the long term. We support testing and marketability checks."
+    },
+    {
+      "number": "02",
+      "title": "Manufacturing & Production",
+      "description": "Certified production process through our network of GMP compliant manufacturing partners. Our specialists design labels and outer boxes according to your brand requirements."
+    },
+    {
+      "number": "03",
+      "title": "Shipping & Logistics",
+      "description": "Worldwide shipping experience at competitive prices. We handle complicated procedures so you can focus on growing your business."
+    }
+  ]
+}

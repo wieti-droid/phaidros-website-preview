@@ -1,0 +1,23 @@
+{
+  "section_tag": "About Us",
+  "title": "Where Science Meets",
+  "title_highlight": "Patient Care",
+  "cards": [
+    {
+      "title": "Research & Development",
+      "description": "Continuously striving to develop our product portfolio with scientific evidence at its core. Current developments include management of menstrual pain, lactation support, and female sub-fertility."
+    },
+    {
+      "title": "Global Reach",
+      "description": "Based in Singapore with an established distributor network worldwide. We develop and execute go-to-market strategies for the Asia-Pacific region and beyond."
+    },
+    {
+      "title": "Quality Assurance",
+      "description": "GMP compliant manufacturing partners guarantee certified production processes. From concept to market, every step meets the highest standards."
+    },
+    {
+      "title": "Partnership Focus",
+      "description": "We actively seek distributors, licensing partners, and private label collaborators who share our commitment to innovative healthcare solutions."
+    }
+  ]
+}

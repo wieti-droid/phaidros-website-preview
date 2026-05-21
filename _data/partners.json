@@ -1,0 +1,36 @@
+{
+  "section_tag": "Collaboration",
+  "title": "Partner With",
+  "title_highlight": "Phaidros",
+  "subtitle": "We offer a strong marketing and commercialisation platform with global reach. We're always looking for opportunities in therapeutic categories that fulfill unmet needs.",
+  "partner_types": [
+    {
+      "title": "Distribution & Commercialisation",
+      "description": "Are you a distributor with a strong track record looking for innovative products and drug formulations? We have an established network but always seek partners who excel in specific therapeutic niches.",
+      "features": [
+        "Established global network",
+        "Innovative product portfolio",
+        "Therapeutic niche specialisation"
+      ]
+    },
+    {
+      "title": "Licensing & Market Expansion",
+      "description": "Looking to enter Asia-Pacific? Through our Singapore headquarters, we offer market expansion services for selected technologies in various therapeutic areas.",
+      "features": [
+        "APAC market entry strategy",
+        "Go-to-market execution",
+        "Strong local partner network"
+      ]
+    },
+    {
+      "title": "Private Label Production",
+      "description": "For selected partners, we offer full private label production services. From product development to packaging design and worldwide shipping.",
+      "features": [
+        "End-to-end development",
+        "GMP certified manufacturing",
+        "Custom branding & packaging",
+        "Worldwide logistics"
+      ]
+    }
+  ]
+}

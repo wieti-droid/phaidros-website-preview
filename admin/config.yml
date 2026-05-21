@@ -1,0 +1,158 @@
+backend:
+  name: github
+  repo: wieti-droid/phaidros-website-preview
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "_data/site.json"
+        fields:
+          - { name: "title", label: "Site Title", widget: "string" }
+          - { name: "description", label: "Meta Description", widget: "text" }
+          - { name: "email", label: "Contact Email", widget: "string" }
+          - { name: "phone", label: "Phone Number", widget: "string" }
+          - { name: "address", label: "Address", widget: "text" }
+
+  - name: "hero"
+    label: "Hero Section"
+    files:
+      - name: "hero"
+        label: "Hero Content"
+        file: "_data/hero.json"
+        fields:
+          - { name: "badge", label: "Badge Text", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "subtitle", label: "Subtitle", widget: "text" }
+          - name: "stats"
+            label: "Stats"
+            widget: "list"
+            fields:
+              - { name: "number", label: "Number/Label", widget: "string" }
+              - { name: "label", label: "Description", widget: "string" }
+
+  - name: "about"
+    label: "About Section"
+    files:
+      - name: "about"
+        label: "About Content"
+        file: "_data/about.json"
+        fields:
+          - { name: "section_tag", label: "Section Tag", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "title_highlight", label: "Highlighted Word", widget: "string" }
+          - name: "cards"
+            label: "About Cards"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Card Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+
+  - name: "bonavidea"
+    label: "Bonavidea Section"
+    files:
+      - name: "bonavidea"
+        label: "Bonavidea Content"
+        file: "_data/bonavidea.json"
+        fields:
+          - { name: "section_tag", label: "Section Tag", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "lead", label: "Lead Paragraph", widget: "text" }
+          - { name: "description", label: "Description", widget: "text" }
+          - name: "categories"
+            label: "Product Categories"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Category Name", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+
+  - name: "private-label"
+    label: "Private Label Section"
+    files:
+      - name: "private-label"
+        label: "Private Label Content"
+        file: "_data/private-label.json"
+        fields:
+          - { name: "section_tag", label: "Section Tag", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "title_highlight", label: "Highlighted Word", widget: "string" }
+          - { name: "subtitle", label: "Subtitle", widget: "text" }
+          - name: "services"
+            label: "Services"
+            widget: "list"
+            fields:
+              - { name: "number", label: "Number", widget: "string" }
+              - { name: "title", label: "Service Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+
+  - name: "partners"
+    label: "Partners Section"
+    files:
+      - name: "partners"
+        label: "Partners Content"
+        file: "_data/partners.json"
+        fields:
+          - { name: "section_tag", label: "Section Tag", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "title_highlight", label: "Highlighted Word", widget: "string" }
+          - { name: "subtitle", label: "Subtitle", widget: "text" }
+          - name: "partner_types"
+            label: "Partner Types"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - name: "features"
+                label: "Features"
+                widget: "list"
+                field: { name: "feature", label: "Feature", widget: "string" }
+
+  - name: "rd"
+    label: "R&D Section"
+    files:
+      - name: "rd"
+        label: "R&D Content"
+        file: "_data/rd.json"
+        fields:
+          - { name: "section_tag", label: "Section Tag", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "title_highlight", label: "Highlighted Word", widget: "string" }
+          - { name: "lead", label: "Lead Text", widget: "text" }
+          - name: "focus_items"
+            label: "Development Focus"
+            widget: "list"
+            field: { name: "item", label: "Focus Item", widget: "string" }
+
+  - name: "contact"
+    label: "Contact Section"
+    files:
+      - name: "contact"
+        label: "Contact Content"
+        file: "_data/contact.json"
+        fields:
+          - { name: "section_tag", label: "Section Tag", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "title_highlight", label: "Highlighted Word", widget: "string" }
+          - { name: "lead", label: "Lead Text", widget: "text" }
+
+  - name: "footer"
+    label: "Footer"
+    files:
+      - name: "footer"
+        label: "Footer Content"
+        file: "_data/footer.json"
+        fields:
+          - { name: "brand_text", label: "Brand Text", widget: "text" }
+          - { name: "copyright", label: "Copyright", widget: "string" }
